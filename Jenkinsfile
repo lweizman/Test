@@ -9,7 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run tests, if applicable
-                sh 'python -m pytest tests'
+                sh 'python3 -m pytest tests'
             }
         }
     }
